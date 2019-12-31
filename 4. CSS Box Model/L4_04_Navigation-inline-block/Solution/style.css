@@ -1,0 +1,32 @@
+html {
+    font: 16px/1.2 Helvetica, sans-serif;
+    margin: 4em 10em;
+}
+h1 {
+    font-family: Georgia, serif;
+}
+header {
+    border-bottom: 2px solid black;
+}
+nav {
+    display: inline-block;
+    width: 69%;
+    text-align: left;
+}
+header p.title {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    display: inline-block;
+    width: 30%;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0.5em;
+}
+nav ul li a {
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: green;
+}

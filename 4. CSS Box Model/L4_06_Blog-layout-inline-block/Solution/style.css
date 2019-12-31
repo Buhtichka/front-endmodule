@@ -1,0 +1,34 @@
+* {
+    background-color: rgb(238, 238, 238);    
+}
+article {
+    display: inline-block;
+    box-sizing: border-box;
+    font: rgb(51, 51, 51);
+    padding-top: 2em;
+    padding-left: 5em;
+    width: 75%;
+}
+aside {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 24%;
+    vertical-align: top;
+}
+img {
+    width: 80%;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    margin-top: 2em;
+}
+nav{
+    display: block;
+    float: right;
+}
+ul li{
+    list-style-type: square;
+}
+

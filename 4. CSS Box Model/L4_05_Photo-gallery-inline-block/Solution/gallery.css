@@ -1,0 +1,19 @@
+html{
+    background-color: R(238) G(238) B(238);
+}
+ul.gallery{
+    list-style: none;
+
+}
+ul.gallery li{
+    border: 0.4rem solid black;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    margin: 1.2% 1%;
+    padding: 0.5em;
+}
+.gallery img{
+    display: block;
+    width: 100%;
+}

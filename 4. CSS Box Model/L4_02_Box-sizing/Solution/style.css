@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    box-sizing: inherit;    
+}
+section{
+    display: inline-block;
+    margin: 3em auto;
+    text-align: center;
+    border: dotted green;
+    padding-bottom: 4em;
+    
+}
+p{
+    width: 100%;
+    display: inline-block;
+    border: solid blue;
+    padding: 20px;
+}
