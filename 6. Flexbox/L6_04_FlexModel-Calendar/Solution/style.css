@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    display: flex;
+    max-width: 65vw;
+}
+span {
+    text-align: center;
+    padding-top: 1em;
+}
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;    
+    box-sizing: border-box;
+}
+.week {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 80%; 
+    text-align: center;   
+    justify-content: space-evenly;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+}
+.week span{
+    height: 100px;
+    border-right: 1px solid black;
+}
+.notes span {
+    height: 200px;
+}
+.container {
+    border: 1px solid black;
+}
+.title {
+    border-bottom: 1px solid black;
+}
+.week span {
+    flex: 1 1 auto;
+}
+.notes span:nth-child(2){
+    border-top: 1px solid black;
+}
+.week span:nth-child(2), 
+.week span:nth-child(3),
+.week span:nth-child(4),
+.week span:nth-child(5),
+.week span:nth-child(6){
+    border-bottom: 1px solid black;
+}
