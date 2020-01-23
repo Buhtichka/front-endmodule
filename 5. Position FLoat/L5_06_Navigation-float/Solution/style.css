@@ -35,8 +35,7 @@ main {
     float: left;
 }
 header nav {
-    display: inline-block;
-    /* float: right; */
+    float: right;
     clear: both;
     margin-top: 5em;
 }

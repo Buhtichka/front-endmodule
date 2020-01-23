@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 1em/1.2, Georgia, serif;
+}
+section {
+    display: block;
+    border: 1px solid #a4a4a4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card p{
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 2em;
+}
+.card h1 {
+    padding-left: 1em;
+}
+
+
+.button {
+    background-color: rgb(0, 153, 0);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    /* position: absolute; */
+    bottom: 0x;
+    right: 20px;
+}
+
