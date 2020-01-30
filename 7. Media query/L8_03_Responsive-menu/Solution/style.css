@@ -36,3 +36,56 @@ ul li a {
 	color: white;
 	font-weight: bold;	
 }
+.menu {
+	display: none;
+}
+@media (max-width:1025px) {
+	.container {
+		margin: 2em 4em;
+	}
+}
+@media (max-width:600px){
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+	nav ul li a{
+		display: flex;
+		flex-direction: column;
+		
+
+	}
+	nav ul li {
+		padding: 1em;
+		
+	}
+	nav {
+		border-top: 2px solid #000;
+	}
+	.menu {
+		display: block;
+	}
+}
+@media (max-width:800px)  {
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+	nav ul li a{
+		display: flex;
+		flex-direction: column;
+		
+
+	}
+	nav ul li {
+		padding: 1em;
+		
+	}
+	nav {
+		border-top: 2px solid #000;
+	}
+	.menu {
+		display: block;
+	}
+
+}
