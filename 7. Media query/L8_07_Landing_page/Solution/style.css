@@ -1,0 +1,36 @@
+.container {
+    margin: 2em 4em;
+}
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.site-nav ul li{
+    display: inline-block;
+    padding: 1em;
+}
+.site-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.site-logo p {
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.site-logo h1 {
+    font-family: 'PT Serif', serif;
+    color: rgb(104, 52, 123);
+}
+.site-need-a-website {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 10em;
+}
+.website-icon p {
+    font-size: 100px;
+}
+/* .website-text {
+    width: 50%;
+} */
