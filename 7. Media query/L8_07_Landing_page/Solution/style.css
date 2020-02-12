@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .site-nav ul li{
     display: inline-block;
@@ -19,18 +20,179 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 .site-logo h1 {
-    font-family: 'PT Serif', serif;
     color: rgb(104, 52, 123);
 }
 .site-need-a-website {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 0 10em;
 }
 .website-icon p {
     font-size: 100px;
 }
-/* .website-text {
+.website-text {
     width: 50%;
-} */
+}
+.website-text p {
+    padding-bottom: 1em;
+}
+.site-need-a-website button {
+    background-color: white;
+    border: none;
+   
+}
+.myButton {
+	background-color:transparent;
+	border-radius:5px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	padding:0.5em;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+h1, h2 {
+    font-family: 'PT Serif', serif;
+}
+.team {
+    padding-top: 2em;
+    text-align: center;
+}
+.about-border {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #000000;
+    margin: 20px auto;
+}
+.circular--square {
+    border-radius: 50%;
+    width: 80%;
+  }
+.team-members, .testimonials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 5em;
+}
+.team-member {
+    width: 30%;
+    text-align: center;
+    padding-bottom: 2em;
+}
+.team-member img {
+    width: 30%;
+}
+.name {
+    font-weight: bold;
+}
+.title {
+   padding-bottom: 1em;
+}
+.text {
+    font-style: italic;
+}
+.site-newsletter {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(104, 52, 123);
+    color: white;
+    text-align: center;
+}
+.about-border-white {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background:black;
+    margin: 20px auto;
+    margin-bottom: 3em;
+}
+.sign-up {
+    padding-top: 0.5em;
+}
+input[type=button]{
+    background-color:white;
+    border: none;
+    color: black;
+    padding: 2px 8px;
+    text-decoration: none;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+input[type=email]{
+    width: 300px;
+}
+.testimonials .team-member .text {
+    margin-bottom: 1em;
+}
+.testimonials .team-member img {
+    margin-bottom: 1em;
+}
+.testimonials .team-member {
+    margin-top: 5em;
+}
+.site-footer {
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(252, 252, 252);
+
+}
+.about, .sitemap, .contacts {
+    width: 20%;
+    padding: 2em 5em;
+}
+.site-footer ul li {
+    list-style-type: none;
+}
+.site-footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+.sitemap ul li {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+.site-content {
+    margin-top: 5em;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .container {
+        margin: 1em 2em;
+    }
+  
+    
+  }
+  @media (max-width: 1024px) and (orientation: landscape) {
+    .container {
+        margin: 1em 2em;
+    }
+  
+    .team-member {
+        width: 40%;
+    }
+    
+  }
+  @media (max-width: 767px) {
+    .container {
+        margin: 1em 2em;
+    }
+  
+    .team-member {
+        width: 40%;
+    }
+    
+  }
