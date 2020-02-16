@@ -13,18 +13,18 @@ body {
     padding: 0.5em 2em;
     justify-content: space-between;
 }
-nav li {
+.site-header li {
     display: inline-block;  
 }
-ul {
+.site-header ul {
     list-style: none;
 }
-ul li a {
+.site-header ul li a {
     text-decoration: none;
     color: #554938;
     padding: 1em;
 }
-.food {
+.logo {
     color: #554938;
 }
 .login button {
@@ -33,19 +33,70 @@ ul li a {
     padding: 10px;
     color: white;
 }
-.head-image {
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    z-index: -1;
-}
 .header-text {
     color: white;
     text-align: center;
     padding: 3em;
 }
-.party-favorites {
-    width: 80%;
-    background-color: #E6E3DE;
-    border: 1px solid black;
+.login button {
+    margin-right: 0.5em;
 }
+.search-bar {
+    width: 100%;
+    height: 600px;
+    background-image: url('../Requirements-and-Resources/Media/craving.jpg');
+    background-position: center center;
+    background-size: cover;  
+}
+.search-bar h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+}
+.search-bar .search {
+    padding-top: 50px;
+    text-align: center;
+}
+.search-bar .search input[type=text] {
+    width: 350px;
+    height: 35px;
+    opacity: 0.8;
+    border: none;
+}
+::placeholder {
+    padding-left: 10px;
+}
+.main-content {
+    background-image: url('../Requirements-and-Resources/Media/background.jpg');
+    width: 100%;
+    height: 2000px;
+    background-position: center center;
+}
+.article {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 85%;
+    height: 500px;
+    background-color: #E6E3DE;
+    position: relative;
+    top: 5em;
+}
+img {
+    width: 60%;
+    height: auto;   
+}
+.article_text h1  {
+    font-size: 36px;
+}
+.article_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+

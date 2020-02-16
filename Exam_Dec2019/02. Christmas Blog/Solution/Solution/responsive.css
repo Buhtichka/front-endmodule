@@ -36,10 +36,28 @@
     align-items: center;
   }
 }
-  @media (min-width: 760px) and (max-width: 1236px){
-    .big_article .article{
-      width: 15em;
-      height: 16em;
+@media (min-width: 760px) and (max-width: 1236px){
+  .big_article .article{
+    width: 15em;
+    height: 16em;
   }
-
+  header {
+    width: 100%;
   }
+  .big_article .article .article_text h3{
+    font-size: 1em;
+  }
+  .big_article .article .article_text {
+    margin-top: 15px;
+  }
+  main ul li{
+    display: flex;
+    flex-direction: column; 
+  }
+  .big_article:nth-child(2){
+    margin-top: 0;
+  }
+  .big_article:nth-child(1){
+  margin-bottom: 0;
+  }
+}
