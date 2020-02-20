@@ -116,6 +116,7 @@ main {
 }
 .main-picture button {
     background-color: rgb(249, 55, 0);
+    border-radius: 3px;
     color: white;
     border: none;
     padding: 1em;
@@ -150,3 +151,39 @@ main {
 .single-banner h3 {
     padding: 0.5em;
 }
+
+footer nav ul li a {
+    text-decoration: none;
+    color: rgb(81, 76, 76);
+}
+footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+footer nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: rgb(81, 76, 76);
+    padding: 0.3em;
+}
+footer nav ul li:first-child{
+    font-size: 1.2em;
+}
+footer nav ul li button {
+    background-color: rgb(202, 195, 195);
+    border: none;
+    border-radius: 2px;
+    color: rgb(81, 76, 76);
+    padding: 0.5em 2em;
+    
+}
+footer nav:nth-child(2) ul li:nth-child(4),
+footer nav:nth-child(2) ul li:nth-child(5),
+footer nav:nth-child(2) ul li:nth-child(6),
+footer nav:nth-child(2) ul li:nth-child(7){
+    font-size: 1.7em;
+    padding: 0 0.2em;
+}
+
